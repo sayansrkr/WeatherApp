@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+   <div class="card">
+    <div class="search">
+        <input id="src" type="text" placeholder="enter city name" spellcheck="false">
+        <button id="button"> <img src=".\images\search.png" alt="search image"</button>
+    </div>
+    <div class="weather">
+        <img src=".\images\rain.png" alt="rain" id="weather-icon">
+        <h1 class="temp"><spen id="temp"></spen>°C</h1>
+        <h2 class="city"><span id="cityName"></span></h2>
+        <div class="details">
+            <div class="col">
+                <img src=".\images\humidity.png" alt="humidity">
+                <div>
+                    <p class="humidity" ><span id="humidity"></span>%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src=".\images\wind.png" alt="wind">
+                <div>
+                    <p class="wind"><span id="wind_speed"></span> km/hr</p>
+                    <p>wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div> 
+   
+    <script src="script.js"></script>
+
+  
+</body>
+</html>
